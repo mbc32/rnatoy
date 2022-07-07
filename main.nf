@@ -113,5 +113,5 @@ process makeTranscript {
 }
  
 workflow.onComplete { 
-	log.info ( workflow.success ? "Done!" : "Oops .. something went wrong" )
+	log.info ( workflow.success ? "You ran the branch test_run" : "Oops .. something went wrong" )
 }
